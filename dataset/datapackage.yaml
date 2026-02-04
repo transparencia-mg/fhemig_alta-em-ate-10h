@@ -2,7 +2,7 @@ name: alta-em-ate-10h
 owner_org: fundacao-hospitalar-do-estado-de-minas-gerais-fhemig
 profile: data-package
 resources:
-  - description: Alta em até 10h por unidade da FHEMIG.
+  - description: Alta até 10h da manhã por unidade da FHEMIG.
     dialect:
       delimiter: ;
     encoding: utf-8-sig
@@ -24,13 +24,13 @@ resources:
           description: "Mês de referência."
         - name: altas_ate_10h
           type: integer
-          description: "Total de pacientes que deram saída em até 10 horas após a internação"
+          description: "Total de pacientes que deram saída até às 10h da manhã."
         - name: saidas
           type: integer
           description: "Total de saídas hospitalares (alta (curado, melhorado ou inalterado) evasão, desistência do tratamento, transferência interna, transferência externa ou óbito)."
         - name: tx_alta_ate_10h
           type: string
-          description: "Taxa de Alta Médica até 10h (proporção de pacientes que deram saída em até 10h após a internação em relação ao total de saídas)."
+          description: "Taxa de Alta Médica até às 10h da manhã (proporção de pacientes que deram saída até às 10h da manhã em relação ao total de saídas)."
     scheme: file
-    title: Altas até 10h por unidade da FHEMIG.
-title: Alta em ate 10h
+    title: Altas até 10h da manhã por unidade da FHEMIG.
+title: Alta até 10h da manhã
