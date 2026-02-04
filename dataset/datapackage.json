@@ -4,7 +4,7 @@
   "profile": "data-package",
   "resources": [
     {
-      "description": "Alta em até 10h por unidade da FHEMIG.",
+      "description": "Alta até 10h da manhã por unidade da FHEMIG.",
       "dialect": {
         "delimiter": ";"
       },
@@ -34,7 +34,7 @@
           {
             "name": "altas_ate_10h",
             "type": "integer",
-            "description": "Total de pacientes que deram saída em até 10 horas após a internação"
+            "description": "Total de pacientes que deram saída até às 10h da manhã."
           },
           {
             "name": "saidas",
@@ -44,13 +44,13 @@
           {
             "name": "tx_alta_ate_10h",
             "type": "string",
-            "description": "Taxa de Alta Médica até 10h (proporção de pacientes que deram saída em até 10h após a internação em relação ao total de saídas)."
+            "description": "Taxa de Alta Médica até às 10h da manhã (proporção de pacientes que deram saída até às 10h da manhã em relação ao total de saídas)."
           }
         ]
       },
       "scheme": "file",
-      "title": "Altas até 10h por unidade da FHEMIG."
+      "title": "Altas até 10h da manhã por unidade da FHEMIG."
     }
   ],
-  "title": "Alta em ate 10h"
+  "title": "Alta até 10h da manhã"
 }
