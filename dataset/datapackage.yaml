@@ -32,5 +32,5 @@ resources:
           type: string
           description: "Taxa de Alta Médica até às 10h da manhã (proporção de pacientes que deram saída até às 10h da manhã em relação ao total de saídas)."
     scheme: file
-    title: Altas até 10h da manhã por unidade da FHEMIG.
-title: Alta até 10h da manhã
+    title: Altas até 10h da manhã por unidade da FHEMIG
+title: Altas até 10h da manhã por unidade da FHEMIG
